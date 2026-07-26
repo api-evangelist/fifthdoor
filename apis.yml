@@ -1,19 +1,47 @@
 aid: fifthdoor
-name: Fifthdoor
-description: Fifthdoor is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Fifth Door
+description: Fifth Door is a San Francisco-based, Y Combinator-backed (Fall 2025)
+  AI-native gaming startup founded by Amir Ghazvinian and Daniel Kan that lets anyone
+  create, share, and play games simply by describing what they imagine, with no coding
+  required. Its generative-AI platform turns natural-language prompts into playable,
+  customizable games, aiming to collapse the time, cost, and technical complexity of
+  traditional game development for players, creators, and studios. Backed by Felicis,
+  the company runs a consumer web app and does not currently publish a public developer
+  API or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/fifthdoor/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.magicpatterns.com/uploads/uE1x64XXGWkWodM5MrdtS7/Screenshot_2026-03-26_at_2.23.09_PM.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - felicis
+x-founders:
+- Amir Ghazvinian
+- Daniel Kan
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gaming
+- Game Development
+- Artificial Intelligence
+- Generative AI
+- No-Code
+- Consumer
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,10 @@ maintainers:
 common:
 - type: Website
   url: https://fifthdoor.com
+- type: SignUp
+  url: https://game.fifthdoor.com/launch
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
