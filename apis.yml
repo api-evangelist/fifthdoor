@@ -9,6 +9,17 @@ description: Fifth Door is a San Francisco-based, Y Combinator-backed (Fall 2025
   the company runs a consumer web app and does not currently publish a public developer
   API or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/fifthdoor/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
